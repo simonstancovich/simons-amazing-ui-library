@@ -13,7 +13,6 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
         title="Preview Buttons"
         onPress={() => navigation.navigate("Buttons")}
       />
-      {/* You can add more buttons for other components (Inputs, Modals, etc.) */}
     </View>
   );
 };

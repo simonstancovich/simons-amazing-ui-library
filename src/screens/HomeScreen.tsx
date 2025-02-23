@@ -13,6 +13,10 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
         title="Preview Buttons"
         onPress={() => navigation.navigate("Buttons")}
       />
+      <Button
+        title="Preview Inputs"
+        onPress={() => navigation.navigate("Inputs")}
+      />
     </View>
   );
 };
